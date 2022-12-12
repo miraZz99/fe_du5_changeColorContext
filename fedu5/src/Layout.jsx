@@ -1,7 +1,7 @@
 import React from 'react';
 import Dashboard from './Dashboard'
 import { BrowserRouter as Router, Route, Routes  } from 'react-router-dom';
-
+import Home from './Home';
 const Layout = () => {
 
   return (
@@ -9,7 +9,8 @@ const Layout = () => {
     <div className="Layout">
       <div className="Content">
         <Routes>
-          <Route path='/'element={<Dashboard/>}/> 
+          <Route path='/'element={<Home/>}/>
+          <Route path='/dashboard'element={<Dashboard/>}/> 
         </Routes>
       </div>
     </div>

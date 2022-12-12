@@ -9,8 +9,8 @@ import CircleIcon from '@mui/icons-material/Circle';
 
 function App() {
   const [color, setColor] = useState(colors.blue);
-  const setBlue = () => 
-      color === colors.blue ? setColor(colors.blue) : setColor(colors.blue);
+  const setRed= () => 
+      color === colors.blue ? setColor(colors.red) : setColor(colors.blue);
   const setDark = () => 
       color === colors.blue ? setColor(colors.dark) : setColor(colors.blue);
   const setGreen = () => 
@@ -20,8 +20,8 @@ function App() {
       <ColorSchema.Provider value={color}>
         <Navbar/>
         <Stack direction="row" spacing={1} marginRight={100}>
-          <IconButton aria-label="circleIcon" style={{color: '#6ad0fc'}}>
-            <CircleIcon onClick={setBlue} />
+          <IconButton aria-label="circleIcon" style={{color: '#f57d83'}}>
+            <CircleIcon onClick={setRed} />
           </IconButton>
           <IconButton aria-label="circleIcon" style={{color: "#484a4a"}}>
             <CircleIcon onClick={setDark} />

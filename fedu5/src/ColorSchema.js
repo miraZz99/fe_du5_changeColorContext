@@ -15,6 +15,11 @@ export const colors = {
     color: "#012409",
     background: "#b2f7c2",
     fill: "#012409"
+  },
+  red: {
+    color: "#2e0103",
+    background: "#f57d83",
+    fill: "#2e0103"
   }
 };
 

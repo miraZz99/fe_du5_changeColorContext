@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <nav  className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="/">
-        DÚ 3
+        DÚ 5
       </a>
       <button
         className="navbar-toggler"
@@ -18,8 +18,13 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
-          <li className="nav-item active">
+        <li className="nav-item active">
             <a className="nav-link" href="/">
+              Home
+            </a>
+          </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="/dashboard">
               Dashboard
             </a>
           </li>
