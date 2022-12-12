@@ -33,7 +33,7 @@ const Populace = () => {
         <YAxis />
         <Tooltip />
         <CartesianGrid strokeDasharray="3 3" />
-        <Bar dataKey="value" fill="#8884d8" background={{ fill: "#eee" }} />
+        <Bar dataKey="value"  background={{ fill: "#eee" }} />
       </BarChart>
       <div class="btn-group" role="group" aria-label="Basic example">
         {data.map((dataa) => (
